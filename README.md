@@ -3,7 +3,7 @@
 项目结构:
 
 ```
-ncdbdshop
+nc_shop
     |
     |-- index.php 首页
     |
