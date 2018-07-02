@@ -6,7 +6,8 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="icon" href="<?php echo URL ?>Public/imgs/milogo.png" type="image/gif" sizes="32x32">
-	<link rel="stylesheet" href="<?php echo URL ?>Public/css/my.css">
+	<link rel="stylesheet" href="<?php echo URL ?>Public/css/reg.css">
+	<link rel="stylesheet" href="<?php echo URL ?>Public/css/pub.css">
 	<title>小米帐号 -注册</title>
 </head>
 <body>
