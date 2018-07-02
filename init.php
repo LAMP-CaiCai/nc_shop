@@ -1,15 +1,18 @@
 <?php
+session_start();
 /**
  * 这里是初始化文件
  */
 // 设置字符集
+// 
+
+
 header("content-type:text/html;charset=utf-8");
 
 // 设置时区
 date_default_timezone_set('PRC');
 
 // 开启SEESION
-session_start();
 // 获取当前init.php文件所在目录的绝对路径
 // echo $path=__FILE__;
 $path=dirname(__FILE__);

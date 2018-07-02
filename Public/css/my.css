@@ -1,0 +1,125 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+ul,ol,li{list-style:none;}
+img{border:none;}
+body{
+	font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微软正黑体", sans-serif;
+    background: #F9F9F9;
+}
+
+.w{width:1240px;margin:0 auto;}
+.w1{width:874px;
+	margin:0 auto;
+	background: #fff;
+}
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+.ml{margin-left:5px;}
+.mt{margin-top:10px;}
+.mt20{margin-top:20px;}
+.bd{border:1px solid #ccc;}
+.bg{background:red;}
+
+/*head*/
+
+/*foot*/
+.footer{
+	margin-top: 10px;
+	background: #F9F9F9;
+}
+.foot{
+	/*background: #F9F9F9;*/
+	width: 26%;
+	height: 25px;
+	margin: 0 auto;
+}
+.foot li{
+	height: 20px;
+	float: left;
+	cursor:pointer;
+	color: #9D9D9D;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.foot li a{
+	color: #9D9D9D;
+}
+
+.footer p{
+	color: #9D9D9D;
+	text-align: center;
+}
+
+/*注册部分*/
+.reg{
+	height:70px;
+	background:url('../imgs/milogo.png') no-repeat top center;
+}
+.zc{
+	height: 50px;
+	text-align:center;
+}
+.zc_1{
+	font-size:30px;
+	font-weight:normal;
+	color: #333;
+	line-height:1.5;
+}
+
+.input{
+	width: 412px;
+	padding: 8px 12px;
+	font-size: 13px;
+	line-height: 1.5;
+	color: #777;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.span{
+	font-size: 16px;
+	color: #444;
+}
+.but{
+	width: 125px;
+	height: 45px;
+	border-radius:6px;
+	color: #fff;
+	font-size: 18px;
+	cursor:pointer;
+}
+.but_1{
+	background: #418B07;
+	border:1px solid #2f6405;
+	margin-left: 80px;
+}
+.but_2{
+	background: #D7811E;
+	border:1px solid #ac6819;
+	margin-left: 188px;
+}
+
+.msg{
+	height: 130px;
+	text-align: center;
+	line-height: 10;
+}
+.msg a{
+	color: #333;
+	font-size: 15px;
+	font-weight:1000;
+}
+.msg span{
+	color: #9D9D9D;
+}
+i{
+	width: 17px;
+	height: 17px;
+	display:inline-block;
+	vertical-align:middle;
+	background: url(../imgs/icon_user.png) no-repeat -16px 0px;
+	cursor:pointer;
+}
