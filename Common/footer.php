@@ -5,7 +5,7 @@
 	<title>Document</title>
 </head>
 <body>
-	<div class="w1 footer" style="margin-top:40px;">
+	<div class="w1 footer" style="margin-top:40px;background:#fff;">
 		<ul class="foot">
 			<li>
 				<a href="" style="color:#000;">简体</a>&nbsp;&nbsp;|&nbsp;&nbsp;
