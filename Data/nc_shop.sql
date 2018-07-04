@@ -4,9 +4,10 @@ USE `nc_shop`
 -- 创建后台用户表
 DROP TABLE IF EXISTS  `admin_user`;
 CREATE TABLE `admin_user`(
-`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-`name` VARCHAR(50) NOT NULL,  -- 用户名
-`pwd` VARCHAR(255) NOT NULL   -- 密码
+`id` INT(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
+`name` VARCHAR(50) UNIQUE KEY NOT NULL,  -- 用户名
+`pwd` CHAR(32) NOT NULL,   -- 密码
+`type` tinyint(4) NOT NULL DEFAULT '1'
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- 前台用户表
