@@ -1,6 +1,3 @@
-<?php
-	require './init.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +10,7 @@
 <body>
 	<div class="w">
 		<div class="denglu">
-			<a href="./index.php">
+			<a href="<?php echo URL ?>/index.php">
 				<img src="<?php echo URL ?>Public/imgs/mistore_logo.png">
 			</a>
 		</div>

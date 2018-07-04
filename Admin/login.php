@@ -1,10 +1,13 @@
+<?php
+require './init.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="icon" href="../Public/imgs/milogo.png" type="image/gif" sizes="32x32">
-	<link rel="stylesheet" href="../Public/css/admin.css">
-	<link rel="stylesheet" href="../Public/css/pub.css">
+	<link rel="icon" href="<?php echo PUB;?>/imgs/milogo.png" type="image/gif" sizes="32x32">
+	<link rel="stylesheet" href="<?php echo PUB;?>/css/admin.css">
+	<link rel="stylesheet" href="<?php echo PUB;?>/css/pub.css">
 	<title>小米账号 - 后台管理登录</title>
 </head>
 <body>
